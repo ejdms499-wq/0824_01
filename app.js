@@ -113,9 +113,11 @@
 
  /* ── 카테고리별 렌더 ── */
  let flip=false;
- document.getElementById('projectBlocks').innerHTML=CATS.map(c=>{
-  const list=byCat(c.key);if(!list.length)return '';
-  const blocks=list.map(p=>{const pro=PRO[p.id]||{};if(p.id==='fashion')return creditsBlock(p,pro);const html=projectBlock(p,pro,flip);flip=!flip;return html;}).join('');
+ const credFx=projects.find(p=>p.id==='fashion');
+ const credTop=credFx?creditsBlock(credFx,PRO[credFx.id]||{}):'';
+ document.getElementById('projectBlocks').innerHTML=credTop+CATS.map(c=>{
+  const list=byCat(c.key).filter(p=>p.id!=='fashion');if(!list.length)return '';
+  const blocks=list.map(p=>{const pro=PRO[p.id]||{};if(p.id==='fashion')return '';const html=projectBlock(p,pro,flip);flip=!flip;return html;}).join('');
   return `<div class="cat" id="cat-${c.key}"><header class="cat-band"><div class="wrap cat-band-in"><span class="cat-no">${c.no}</span><div class="cat-band-txt"><h2>${enc(c.ko)}</h2><em>${enc(c.en)}</em><p>${enc(c.lead)}</p></div><span class="cat-count">${String(list.length).padStart(2,'0')} ${list.length>1?'projects':'project'}</span></div></header>${blocks}</div>`;
  }).join('');
 

@@ -627,3 +627,16 @@ main{padding-top:0}
 .side-index a{font:600 13.5px var(--kr);padding:8px 10px}
 .side-foot a{font:700 14px var(--kr)}
 @media(max-width:900px){.wrap{padding-left:16px;padding-right:16px}.hs-stats{grid-template-columns:1fr 1fr}.hs-board{grid-template-columns:1fr}.bar{display:flex}}
+
+/* BW v5: project image = column height, no letterbox; credits above projects */
+.proj-grid{align-items:stretch}
+.proj-hero{background:#fff;border:1.5px solid #000;border-radius:14px;overflow:hidden}
+.proj-hero-frame{flex:0 0 auto;aspect-ratio:4/3!important;height:auto!important;max-height:none!important;background:#000}
+.proj-hero-frame .thumb{height:100%!important;width:100%!important;aspect-ratio:4/3!important}
+.proj-hero-frame img{height:100%!important;width:100%!important;object-fit:cover!important;background:#000}
+.proj-side{justify-content:space-between;overflow:visible}
+.proj-hero figcaption{flex:0 0 auto}
+/* BW v5b: show full poster (contain), white ground, no crop */
+.proj-hero-frame{aspect-ratio:auto!important;background:#fff}
+.proj-hero-frame .thumb{height:auto!important;aspect-ratio:auto!important}
+.proj-hero-frame img{height:auto!important;max-height:none!important;width:100%!important;object-fit:contain!important;background:#fff}
