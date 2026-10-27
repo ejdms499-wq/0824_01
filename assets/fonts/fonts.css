@@ -1,6 +1,6 @@
+@import url('pretendard/pretendardvariable-dynamic-subset.css');
 /* 셀프 호스팅 서체 — Geist(제목·UI), Geist Mono(라벨·숫자). 한글은 Pretendard(동적 서브셋) */
 @font-face{font-family:'Geist';src:url('Geist-Variable.woff2') format('woff2');font-weight:100 900;font-style:normal;font-display:swap}
 @font-face{font-family:'Geist Mono';src:url('GeistMono-Variable.woff2') format('woff2');font-weight:100 900;font-style:normal;font-display:swap}
-@import url('pretendard/pretendardvariable-dynamic-subset.css');
 @font-face{font-family:'Instrument Serif';src:url('instrument-serif-latin-400-normal.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
 @font-face{font-family:'Instrument Serif';src:url('instrument-serif-latin-400-italic.woff2') format('woff2');font-weight:400;font-style:italic;font-display:swap}
