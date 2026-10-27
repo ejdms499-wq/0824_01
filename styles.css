@@ -401,3 +401,58 @@ html{scroll-padding-top:64px}
 .contact-title{font-weight:800}
 .contact-title em{color:var(--ink)}
 @media(max-width:760px){.hero-actions{flex-wrap:wrap;gap:6px}.hero-actions .btn+.btn{border-left:0;padding-left:0}.deck-strip .thumb{width:280px}}
+
+
+/* ═══════════ BW v2 — 가독성 · 사이드 목차 · 한 화면 축소 ═══════════ */
+:root{--ink:#000;--ink2:#2a2b2e;--muted:#6b6e76;--hair:rgba(0,0,0,.16);--hair2:rgba(0,0,0,.1);--side:236px}
+html{font-size:80%}
+body{color:var(--ink);font-weight:500}
+/* 얇은 글씨 전부 보강 */
+p,li,dd,dt,span,figcaption,small{color:inherit}
+.hero-lede,.about-mission,.proj-desc,.proj-sub,.cat-band-txt p,.pt-desc,.steps p,.credits-statement{color:var(--ink2);font-weight:500}
+.eyebrow,.label,.sec-no,.gallery-label,.facts dt,.proj-meta,.proj-year,.proj-cat,.pi-year,.hero-stats span,.stats span,.deck-hint,.proj-hero figcaption{color:var(--ink2)!important;font-weight:600!important;opacity:1!important}
+.muted,.proj-note,.foot{color:var(--muted)!important}
+.hero-title,.sec-head h2,.proj-title,.cat-band-txt h2,.contact-title{font-weight:700!important;color:var(--ink)}
+.cat-no,.cat-band .cat-no{font-weight:400!important;color:#fff}
+.hero-role,.proj-sub,.sec-head h2 em,.proj-title em,.cat-band-txt em,.insight p{font-style:italic;color:var(--ink)}
+.chips li,.facts .chips li{border-color:var(--ink);color:var(--ink);font-weight:600}
+.thumb{border-color:var(--hair)}
+.thumb img{filter:none!important}
+/* 사이드바 */
+.side{position:fixed;left:0;top:0;bottom:0;width:var(--side);background:#000;color:#fff;z-index:1200;display:flex;flex-direction:column;padding:22px 18px;box-sizing:border-box;overflow:auto}
+.side-logo{display:flex;align-items:center;gap:8px;color:#fff;text-decoration:none;font:800 15px var(--sans);letter-spacing:.06em}
+.side-logo i{width:8px;height:8px;border-radius:50%;background:#fff}
+.side-about{display:flex;justify-content:space-between;align-items:center;margin:16px 0 22px;padding:11px 14px;background:#fff;color:#000;border-radius:6px;font:600 12px var(--kr);text-decoration:none}
+.side-about span{font-family:var(--sans)}
+.side-label{font:600 10px var(--mono);letter-spacing:.2em;color:rgba(255,255,255,.6);margin-bottom:8px;padding-top:12px;border-top:1px solid rgba(255,255,255,.18)}
+.side-index{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.side-index a{display:grid;grid-template-columns:24px 1fr;gap:8px;align-items:baseline;padding:7px 8px;border-radius:4px;color:rgba(255,255,255,.85);text-decoration:none;font:600 12.5px var(--kr);letter-spacing:-.01em}
+.side-index a span{font:500 10.5px var(--mono);color:rgba(255,255,255,.55)}
+.side-index a:hover,.side-index a.is-on{background:#fff;color:#000}
+.side-index a.is-on span,.side-index a:hover span{color:#000}
+.side-foot{margin-top:auto;padding-top:14px;border-top:1px solid rgba(255,255,255,.18);display:grid;gap:8px}
+.side-foot a{color:#fff;text-decoration:none;font:700 13px var(--kr)}
+.side-foot a:hover{text-decoration:underline}
+/* 본문은 오른쪽으로 */
+.bar{left:var(--side);width:auto;right:0}
+.bar-index-toggle,.index-panel{display:none!important}
+main,.foot{margin-left:var(--side)}
+.wrap{max-width:1180px}
+/* 히어로 한 화면 */
+.hero{min-height:calc(100svh - 52px);padding:64px 0 24px;display:flex;flex-direction:column;justify-content:center;box-sizing:border-box}
+.hero-title{font-size:clamp(64px,11vw,170px);line-height:.86}
+.hero-role{font-size:clamp(18px,1.8vw,26px)}
+.hero-lede{font-size:14px;max-width:44em}
+.hero-stats{margin-top:18px}
+.hero-stats strong{font-size:clamp(22px,2.4vw,36px)}
+/* 전체 간격 축소 */
+.proj{padding-top:clamp(24px,4vh,40px);padding-bottom:clamp(24px,4vh,40px)}
+.cat-band{margin-top:clamp(32px,5vh,56px);padding:clamp(14px,2.4vh,24px) 0}
+.cat-band .cat-no{font-size:clamp(56px,7vw,110px)}
+.sec-head{margin-bottom:16px}
+.proj-head{margin-bottom:12px}
+.proj-title{font-size:clamp(28px,3.6vw,52px)}
+.proj-grid{gap:18px}
+.about{padding-top:clamp(28px,5vh,56px)}
+.contact{padding:clamp(36px,7vh,80px) 0}
+@media(max-width:900px){.side{display:none}.bar{left:0}main,.foot{margin-left:0}.bar-index-toggle,.index-panel{display:block!important}}

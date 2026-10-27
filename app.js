@@ -172,3 +172,11 @@
   document.querySelectorAll('.proj-head,.proj-grid,.credits-grid,.process,.proj-main,.about-grid,.pindex-list,.sec-head,.cat-head').forEach(el=>{el.classList.add('will-in');io.observe(el);});
  }
 })();
+
+/* ── BW: 사이드 목차 ── */
+(function(){const el=document.getElementById("sideIndex");if(!el)return;const projects=window.SOY_PROJECTS||[];const enc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
+ el.innerHTML=projects.map((p,i)=>`<li><a href="#project-${enc(p.id)}" data-side="project-${enc(p.id)}"><span>${String(i+1).padStart(2,'0')}</span>${enc(p.id==='fashion'?'Selected Credits':p.title)}</a></li>`).join('');
+ const links=[...el.querySelectorAll('a')];
+ const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){links.forEach(l=>l.classList.toggle('is-on',l.dataset.side===e.target.id))}})},{rootMargin:'-40% 0px -55% 0px'});
+ projects.forEach(p=>{const s=document.getElementById('project-'+p.id);if(s)io.observe(s)});
+})();
