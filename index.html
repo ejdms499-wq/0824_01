@@ -42,25 +42,17 @@
 
 <main>
   <!-- ───── HERO ───── -->
-  <section class="hero" id="home">
-    <div class="wrap hero-grid hero-grid--solo">
-      <div class="hero-copy">
-        <p class="eyebrow"><span>Portfolio — Kim Soyi</span><span>Seoul, KR</span></p>
-        <h1 class="hero-title">SOY<br>KIM<i>.</i></h1>
-        <p class="hero-role">비주얼 디렉션 <em>&amp;</em> 디지털 콘텐츠</p>
-        <p class="hero-lede">스타일링 현장에서 익힌 감각으로 캐릭터, 역사 콘텐츠, AI 서비스까지 — 보이는 것과 작동하는 것을 함께 기획합니다.</p>
-        <div class="hero-actions">
-          <a href="#projects" class="btn btn--dark">작업 보기 <span aria-hidden="true">↓</span></a>
-          <a href="credits.html" class="btn">Selected Credits <span aria-hidden="true">↗</span></a>
-        </div>
-      </div>
-    </div>
+  <section class="hero hero--skills" id="home">
     <div class="wrap">
-      <ul class="hero-stats" id="heroStats" aria-label="포트폴리오 요약"></ul>
+      <div class="hs-head">
+        <div><p class="eyebrow"><span>Kim Soy — Visual Direction & Digital Content</span><span>Seoul, KR</span></p>
+        <h1 class="hs-title">스타일링에서 출발해, <em>화면과 서비스</em>까지 기획합니다.</h1></div>
+        <div class="hs-stats" id="heroStats"></div>
+      </div>
+      <div class="hs-board" id="skillBoard"></div>
+      <div class="hs-foot"><span class="hs-note">드라마·매거진·무대 현장 → 캐릭터 IP · 역사 콘텐츠 · AI 서비스 · 데이터 스토리텔링</span><div class="hero-actions"><a href="#projects" class="btn btn--dark">프로젝트 ↓</a><a href="credits.html" class="btn">Selected Credits ↗</a></div></div>
     </div>
   </section>
-
-
 
   <!-- ───── ABOUT ───── -->
   <section class="about" id="about">
@@ -71,12 +63,7 @@
   </section>
 
   <!-- ───── PROJECT INDEX ───── -->
-  <section class="pindex" id="projects">
-    <div class="wrap">
-      <header class="sec-head"><span class="sec-no">02 — Projects</span><h2>선택한 작업 <em>10</em></h2><p>패션 · 캐릭터 · 인터랙티브 웹 · AI/데이터. 각 프로젝트의 큰 이미지, 역할, 도구, 핵심 숫자, 배운 점을 한 번에 봅니다.</p></header>
-      <ol class="pindex-list" id="pindexList"></ol>
-    </div>
-  </section>
+  <div id="projects"></div>
 
   <!-- ───── PROJECTS ───── -->
   <div id="projectBlocks"></div>

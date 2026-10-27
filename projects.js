@@ -2,7 +2,79 @@
 // The card treatments are original editorial placeholders, not depictions of finished project art.
 window.SOY_PROJECTS = [
   {
-    id:'fashion',image:null,imageAlt:'',imageCredit:'SOY KIM 타이포그래피 표지',number:'01',title:'SELECTED CREDITS',subtitle:'드라마 · 무대 · 캠페인 · 화보',category:'fashion',categoryLabel:'패션·스타일링',size:'full',art:'fashion',year:'FASHION / EDITORIAL',
+    id:'gyeong',image:'assets/projects/covers/gyeongseong_yarok.png',imageAlt:'경성야록 대표 이미지',imageCredit:'사용자 제공 포트폴리오 대표 이미지',number:'01',title:'경성야록',subtitle:'1930년 신문을 손끝으로 펼쳐 읽는 법.',category:'history',categoryLabel:'역사 · 세계관 콘텐츠',size:'wide',art:'gyeong',year:'역사 기반 웹 콘텐츠',
+    intro:'1930년대 신문 지면이 오늘의 인터랙티브 경험으로.',
+    description:'당시 기록과 지면의 형태를 바탕으로 한 역사 콘텐츠 프로젝트. 원문 이미지, 현대어 풀이, 지도, 라디오 등 탐색 기능을 통해 독자가 사료와 이야기 사이를 직접 오가게 합니다.',
+    role:'콘텐츠 기획 · 비주얼 디렉션 · 팀 리딩',
+    steps:[['자료 조사','실제 당시 신문 지면과 확인 가능한 기록을 수집·검토합니다.'],['시각 언어','1930년대 신문 인쇄물의 활자와 삽화 질감을 모바일/PC 화면으로 옮깁니다.'],['탐색 경험','기사·현대어 풀이·지도·라디오를 하나의 탐색 동선으로 연결합니다.']],
+    tags:['역사 자료','신문형 인터랙션','웹 콘텐츠'],note:'표지의 신문풍 그래픽은 실제 당시 지면이 아니라 웹 포트폴리오용 타이포그래피 스터디입니다. 실제 사료와 AI 재현물은 상세 자료에서 구분해야 합니다.',links:[{label:"Live",url:"https://ejdms499-wq.github.io/gyeongseong-yarok_v/",kind:"site"},{label:"기획 노트 · Notion",url:"https://app.notion.com/p/KYEONGSEONG-YAROK-40592c0c250981a98ddfeb2ada731c12",kind:"resource"}]
+  },
+  {
+    id:'simmyo',image:'assets/projects/covers/simmyo_cover_web.jpg',imageAlt:'심묘한 산책 대표 이미지',imageCredit:'사용자 제공 포트폴리오 대표 이미지',artworkOriginal:true,gallery:['assets/projects/simmyo_A_s1_01b.png','assets/projects/simmyo_A_s1_01c.png','assets/projects/simmyo_A_t9_01.png','assets/projects/simmyo_A_t8_02.png','assets/projects/simmyo_D_n3_tile_13.png','assets/projects/simmyo_D_n3_tile_16.png'],number:'02',title:'심묘한 산책',subtitle:'길고양이 한 마리 따라 걷는 옛 경성.',category:'history',categoryLabel:'역사 · 세계관 콘텐츠',size:'narrow',art:'simmyo',year:'1930년대 경성 문화 탐험',
+    intro:'아무 사건도 일으키지 않는 길고양이가 경성을 걷습니다.',
+    description:'작고 통통한 먹색 고양이 심묘의 시선으로 1930년대 경성의 문화·공간·생활을 발견하는 인터랙티브 산책 프로젝트.',
+    role:'캐릭터 설정 · 역사 리서치 · 비주얼 기획',
+    steps:[['심묘의 설정','그림 속에서 확인 가능한 정보만 설정으로 남기는 캐릭터 원칙.'],['도시의 기록','당시 자료의 기록과 상상을 구분하며 도시의 문화 공간을 탐색.'],['산책의 방식','지도·발자국·목격지 서사를 통해 시대적 분위기에 접근.']],
+    tags:['캐릭터','경성 문화','스토리텔링'],note:'표지와 갤러리는 직접 제공한 심묘 원본 포즈와 장면 에셋입니다. 원본 그림체와 색감은 변경하지 않았습니다.',links:[{label:"Live",url:"https://ejdms499-wq.github.io/simmyo-walk/",kind:"site"},{label:"기획 노트 · Notion",url:"https://app.notion.com/p/SIMMYO-WALK-40592c0c25098165adb1d0f1ed83a163",kind:"resource"}]
+  },
+  {
+    id:'pudding',image:'assets/projects/covers/puddingberry.png',imageAlt:'푸딩베리 대표 이미지',imageCredit:'사용자 제공 포트폴리오 대표 이미지',number:'03',title:'푸딩베리',subtitle:'성격이 다른 다섯 친구가 사는, 좀 달콤한 동네.',category:'ip',categoryLabel:'캐릭터 IP',size:'wide',art:'pudding',year:'오리지널 캐릭터 IP',
+    intro:'달콤한 디저트의 촉감에서 태어난 다섯 캐릭터의 세계.',
+    description:'말랑한 푸딩 형태, 디저트 토핑과 개성 있는 소품을 조합해 세계관과 성격을 가진 오리지널 캐릭터 라인업을 기획했습니다. 배리, 릴리, 마루, 코코, 슈슈가 살아가는 유쾌한 디저트 왕국입니다.',
+    role:'IP 기획 · 캐릭터 디자인 · 세계관 설정',
+    steps:[['출발점','바쁜 일상에 작은 위로를 주는 부드러운 디저트 캐릭터와 이야기.'],['다섯 캐릭터','배리(딸기 푸딩 토끼) · 릴리(커스터드 푸딩 병아리) · 마루(말차 푸딩 도깨비) · 코코(초코 푸딩 곰) · 슈슈(우유 크림 푸딩 요정).'],['디저트 왕국','캔디 숲과 디저트 왕국, 캐릭터의 관계와 소소한 에피소드. 3D 클레이의 부드러운 질감을 시각적 기준으로 사용.']],
+    tags:['오리지널 캐릭터','5인 라인업','3D 클레이'],note:'대표 이미지는 사용자가 제공한 푸딩베리 비주얼 자료입니다. 실제 캐릭터 설정·원본 이미지는 별도의 기획 자료를 참조하세요.',links:[{label:"기획 노트 · Notion",url:"https://app.notion.com/p/38e92c0c2509801587b0fbc171ec189f",kind:"resource"},{label:"푸딩베리 영상 채널",url:"https://www.youtube.com/@BerryPudding_TV/playlists",kind:"video"}]
+  },
+  {
+    id:'wizard',image:'assets/projects/covers/wizard_bakery_wide.webp',imageAlt:'위저드 베이커리 실제 웹사이트 화면의 16대9 프레이밍',imageCredit:'사용자 제공 포트폴리오 대표 이미지',number:'04',title:'WIZARD BAKERY',subtitle:'자정에만 문 여는 빵집. 효과엔 대가가 있습니다.',category:'ip',categoryLabel:'캐릭터 IP',size:'narrow',art:'wizard',year:'React 기반 웹 프로젝트',
+    intro:'자정에만 문을 여는 소설 속 빵집을 웹 경험으로.',
+    description:'구병모 작가의 소설 「위저드 베이커리」에서 영감을 얻어 개인적으로 재해석한 비공식 팬 프로젝트. 효과와 대가를 가진 39개 상품을 5개 컬렉션으로 정리하고 베이커리 쇼핑 경험으로 구현했습니다.',
+    role:'세계관 기획 · UI 설계 · 프론트엔드 · AI 비주얼',
+    steps:[['세계관의 재해석','원작의 세계관을 기반으로 새로운 상품 콘셉트를 구성했습니다.'],['콘텐츠 구조','MIND / RELATION / CURSE / SEALED / NIGHT. 총 39개 상품을 JSON 데이터로 관리.'],['웹 구현','React + HashRouter, 필터 진열대와 4탭 상품 상세, 관심 목록, GitHub Pages 배포.']],
+    tags:['React','39개 상품','5개 컬렉션'],note:'구병모 작가의 원작과 공식 제휴 없는 개인 창작·비공식 팬 프로젝트입니다. 카드 표지는 사용자 제공 웹사이트 비주얼을 16:9 화면에 맞춰 구성했습니다.',links:[{label:"Live",url:"https://ejdms499-wq.github.io/wizard-bakery/",kind:"site"},{label:"기획 노트 · Notion",url:"https://app.notion.com/p/WIZARD-BAKERY-3d592c0c250981c48c5fc89fb13109d9",kind:"resource"}]
+  },
+  {
+    id:'memory',image:'assets/projects/covers/memory_gyeol.png',imageAlt:'기억결 대표 이미지',imageCredit:'사용자 제공 포트폴리오 대표 이미지',number:'05',title:'기억결',subtitle:'기억의 빈칸을 멋대로 채우지 않는 AI.',category:'aiservice',categoryLabel:'AI 서비스 기획',size:'narrow',art:'memory',year:'n8n · OpenAI · Supabase',
+    intro:'기억하지 못하는 것까지 AI가 지어내지 않도록.',
+    description:'사용자가 떠올린 최초의 기억을 보존하고, 확실한 기억·불확실한 기억·미확인 정보를 분리한 뒤 질문과 이미지를 통해 조심스럽게 재구성하는 AI 경험 서비스입니다.',
+    role:'서비스 기획 · AI 자동화 · 웹 구현',
+    steps:[['최초 기억 보존','AI 개입 전에 사용자의 최초 기억 원문을 저장합니다.'],['기억 인터뷰와 구분','비유도형 질문과 확신도 분류를 통해 확실/불확실/미확인 정보를 구분합니다.'],['검증 후 재구성','Memory Image Guard → Final Prompt Lock → 이미지 생성 → Supabase Private Storage/Signed URL → 결과 페이지.']],
+    tags:['n8n','OpenAI','Supabase'],note:'기억 재구성 서비스의 개념과 구축 구조에 관한 프로젝트입니다. 카드의 추상 그래픽은 실제 생성 결과물이 아닙니다.',links:[{label:"Live",url:"https://ejdms499-wq.github.io/memory-gyeol/",kind:"site"},{label:"기획 노트 · Notion",url:"https://app.notion.com/p/MEMORY-GYEOL-40592c0c250981bfa33cd273d195a9ab",kind:"resource"}]
+  },
+  {
+    id:'music',image:'assets/projects/covers/music_world.png',imageAlt:'MUSIC WORLD 음악 아카이브 웹사이트 실제 화면',imageCredit:'사용자 제공 MUSIC WORLD 실제 사이트 화면',number:'06',title:'MUSIC WORLD',subtitle:'노래 한 곡 치면 세계가 하나 열립니다.',category:'aiservice',categoryLabel:'AI 서비스 기획',size:'wide',art:'music',year:'음악 경험 MVP',
+    intro:'음악과 라이브 영상의 감각적인 탐색.',
+    description:'음악·라이브·영상 자료를 탐색하는 인터랙티브 MVP와 레퍼런스 아카이브. Radiohead ‘High and Dry’ 라이브 영상은 자료 연구용 참고 영상으로 연결되어 있습니다.',
+    role:'콘텐츠 큐레이션 · 경험 설계 · MVP 제작',
+    steps:[['경험 설계','음악, 영상, 라이브 공연 자료에 도달하는 사용자의 탐색 방식 설계.'],['MVP 결과','Notion에 별도로 보관된 MUSIC WORLD MVP HTML 결과물.'],['외부 레퍼런스','Radiohead — High and Dry, Later… with Jools Holland (1995)는 프로젝트가 제작한 영상이 아니라 외부 레퍼런스.']],
+    tags:['음악 큐레이션','인터랙티브','MVP'],note:'공식 Radiohead 프로젝트가 아니며 영상의 저작권은 각 권리자에게 있습니다. 표지는 사용자 제공 MUSIC WORLD 화면 이미지입니다.',links:[{label:"Live",url:"https://ubiquitous-crepe-83c45d.netlify.app/",kind:"site"},{label:"기획 노트 · Notion",url:"https://app.notion.com/p/MUSIC-WORLD-MUSIC-WORLD-AI-MUSIC-CONTEXT-ENGINE-40592c0c250981c291f2c79dc17872ed",kind:"resource"}]
+  },
+  {
+    id:'stones',image:'assets/projects/covers/stray_stones_wide.webp',imageAlt:'사용자가 제공한 STRAY STONES 대표 이미지의 16대9 확장판',imageCredit:'사용자 제공 포트폴리오 대표 이미지',number:'07',title:'STRAY STONES',subtitle:'길 잃은 운석이 도착하는 작은 입양소.',category:'data',categoryLabel:'데이터 스토리텔링',size:'half',art:'stones',year:'NASA 운석 데이터 기반',
+    intro:'우주의 길 잃은 돌을 위한 작고 이상한 입양소.',
+    description:'NASA 운석 데이터에서 발견 위치와 탐색 편향을 읽고, 정보를 캐릭터·탐험·입양이라는 새로운 경험으로 전환하는 프로젝트입니다.',
+    role:'데이터 해석 · 캐릭터 기획 · UI 설계',
+    steps:[['데이터에서 발견한 것','운석 기록이 단지 떨어진 장소가 아니라 인간의 발견·탐색 행위를 반영한다는 관찰.'],['관점의 전환','방대한 기록을 감정적으로 연결할 수 있는 입양소 콘셉트로 전환.'],['경험으로 만들기','기존 3D 지구본과 타임라인에서 캐릭터 기반 앱 경험으로 확장.']],
+    tags:['NASA 운석 데이터','캐릭터 세계관','앱 콘셉트'],note:'대표 이미지는 사용자가 제공한 STRAY STONES 표지입니다. 가로 카드 버전은 원본 문자와 캐릭터를 보존해 제작한 16:9 배치입니다.',links:[{label:"Live",url:"https://ejdms499-wq.github.io/STRAY_STONES/",kind:"site"},{label:"기획 노트 · Notion",url:"https://app.notion.com/p/STRAY-STONES-40592c0c2509817f977befdea563fb1c",kind:"resource"}]
+  },
+  {
+    id:'vinyl',image:'assets/projects/covers/data_vinyl.png',imageAlt:'DATA VINYL 대표 이미지: 턴테이블과 레코드 아카이브',imageCredit:'사용자가 제공한 DATA VINYL 이미지',number:'08',title:'DATA VINYL',subtitle:'차트 숫자를 레코드처럼 꺼내 듣는 법.',category:'data',categoryLabel:'데이터 스토리텔링',size:'half',art:'vinyl',year:'음악 데이터 인터랙션',
+    intro:'차트를 읽는 일에서 레코드를 고르는 경험으로.',
+    description:'음악 데이터를 실제 턴테이블을 만지는 행위로 번역했습니다. LP 슬리브, 바늘, 레코드 디깅으로 청취와 데이터 탐색을 연결합니다.',
+    role:'콘셉트 기획 · 데이터 설계 · UI 인터랙션',
+    steps:[['데이터 구조','시장별 음악 데이터 정리 및 탐색 구조 설계.'],['손에 잡히는 인터랙션','LP 슬리브를 고르고 바늘을 내리는 촉각적 행동을 인터페이스로.'],['탐색 경험','레코드 디깅, 매칭, 개인 청취 여권 등 모듈 기획.']],
+    tags:['음악 데이터','턴테이블','인터랙티브 웹'],note:'표지는 사용자가 제공한 DATA VINYL 대표 이미지입니다. 실제 기능은 사이트 및 기획 자료를 참고하세요.',links:[{label:"Live",url:"https://ejdms499-wq.github.io/DATA_VINYL/",kind:"site"},{label:"기획 노트 · Notion",url:"https://app.notion.com/p/DATA-VINYL-40592c0c250981cdb997fa7b1adba019",kind:"resource"}]
+  },
+  {
+    id:'research',image:'assets/projects/research/research_cover.jpg',imageAlt:'투명 종이와 실험 자료를 겹쳐 배열한 실험노트 콘셉트 이미지',imageCredit:'사용자 제공 Midjourney 실험노트 표지',gallery:['assets/projects/research/research_01.jpg','assets/projects/research/research_02.jpg','assets/projects/research/research_03.jpg','assets/projects/research/research_04.jpg'],number:'09',title:'실험 노트',subtitle:'아이디어가 프로토타입이 되기까지, 전부 적어 두는 노트.',category:'data',categoryLabel:'데이터 스토리텔링',size:'small',art:'research',year:'진행 중인 제작 기록',
+    intro:'생각을 움직이는 프로토타입으로 만드는 과정.',
+    description:'데이터 분석, AI 보조 제작, 프롬프트 반복, UI 프로토타이핑 등 여러 실험과 제작 과정을 기록하는 열린 아카이브.',
+    role:'리서치 · 프로토타이핑 · 비주얼 개발',
+    steps:[['질문하기','사용자 경험과 시각적 표현이 만나는 질문을 정의합니다.'],['실험하기','레퍼런스부터 프로토타입까지 반복 테스트와 수정.'],['다듬기','작동하는 결과물과 학습한 내용을 분리해 기록합니다.']],
+    tags:['리서치','AI 제작','프로토타입'],note:'표지는 사용자가 제작해 제공한 Midjourney 실험노트 이미지입니다. 실제 연구 기록이나 완성 결과물의 캡처는 아닙니다.',links:[]
+  },
+  {
+    id:'fashion',image:null,imageAlt:'',imageCredit:'SOY KIM 타이포그래피 표지',number:'10',title:'SELECTED CREDITS',subtitle:'드라마 · 무대 · 캠페인 · 화보 — 현장 77컷',category:'fashion',categoryLabel:'패션 · 스타일링',size:'full',art:'fashion',year:'FASHION / EDITORIAL',
     intro:'드라마부터 매거진까지, 현장에서 함께한 작업들.',
     description:'VOGUE와 BAZAAR의 지면, 넷플릭스 드라마의 의상실, 아이돌 음악방송 무대까지 — 서로 다른 속도의 현장에서 같은 질문을 붙잡았습니다. 이 사람은 지금 어떤 옷으로 기억되어야 하는가.',
     role:'시안 · 컨셉 · 비주얼 무드 · 픽업 사입 · 착장 피팅 · 현장 팔로우',
@@ -26,78 +98,6 @@ window.SOY_PROJECTS = [
       {title:"강유석 · BoldPage",subtitle:"커버 화보 · 비하인드",publication:"BOLDPAGE",images:['assets/projects/styling/bold_01.jpg','assets/projects/styling/bold_02.jpg','assets/projects/styling/bold_03.jpg','assets/projects/styling/bold_04.jpg','assets/projects/styling/bold_fullbody.jpg','assets/projects/styling/bold_05_title.jpg','assets/projects/styling/bold_bts_01.jpg','assets/projects/styling/bold_bts_02.jpg']},
       {title:"하정우 · 맨 노블레스 × 랄프 로렌 퍼플 라벨",subtitle:"커버 화보",publication:"MEN NOBLESSE",images:['assets/projects/styling/men_01.jpg','assets/projects/styling/men_02.jpg','assets/projects/styling/men_03.jpg','assets/projects/styling/men_04.jpg']}
     ], links:[]
-  },
-  {
-    id:'pudding',image:'assets/projects/covers/puddingberry.png',imageAlt:'푸딩베리 대표 이미지',imageCredit:'사용자 제공 포트폴리오 대표 이미지',number:'02',title:'푸딩베리',subtitle:'서로 다른 다섯 성격이 사는 달콤한 세계.',category:'character',categoryLabel:'캐릭터·세계관',size:'wide',art:'pudding',year:'오리지널 캐릭터 IP',
-    intro:'달콤한 디저트의 촉감에서 태어난 다섯 캐릭터의 세계.',
-    description:'말랑한 푸딩 형태, 디저트 토핑과 개성 있는 소품을 조합해 세계관과 성격을 가진 오리지널 캐릭터 라인업을 기획했습니다. 배리, 릴리, 마루, 코코, 슈슈가 살아가는 유쾌한 디저트 왕국입니다.',
-    role:'IP 기획 · 캐릭터 디자인 · 세계관 설정',
-    steps:[['출발점','바쁜 일상에 작은 위로를 주는 부드러운 디저트 캐릭터와 이야기.'],['다섯 캐릭터','배리(딸기 푸딩 토끼) · 릴리(커스터드 푸딩 병아리) · 마루(말차 푸딩 도깨비) · 코코(초코 푸딩 곰) · 슈슈(우유 크림 푸딩 요정).'],['디저트 왕국','캔디 숲과 디저트 왕국, 캐릭터의 관계와 소소한 에피소드. 3D 클레이의 부드러운 질감을 시각적 기준으로 사용.']],
-    tags:['오리지널 캐릭터','5인 라인업','3D 클레이'],note:'대표 이미지는 사용자가 제공한 푸딩베리 비주얼 자료입니다. 실제 캐릭터 설정·원본 이미지는 별도의 기획 자료를 참조하세요.',links:[{label:"기획 노트 · Notion",url:"https://app.notion.com/p/38e92c0c2509801587b0fbc171ec189f",kind:"resource"},{label:"푸딩베리 영상 채널",url:"https://www.youtube.com/@BerryPudding_TV/playlists",kind:"video"}]
-  },
-  {
-    id:'wizard',image:'assets/projects/covers/wizard_bakery_wide.webp',imageAlt:'위저드 베이커리 실제 웹사이트 화면의 16대9 프레이밍',imageCredit:'사용자 제공 포트폴리오 대표 이미지',number:'03',title:'WIZARD BAKERY',subtitle:'자정에만 열리는, 소설 속 빵집.',category:'interactive',categoryLabel:'인터랙티브 웹',size:'narrow',art:'wizard',year:'React 기반 웹 프로젝트',
-    intro:'자정에만 문을 여는 소설 속 빵집을 웹 경험으로.',
-    description:'구병모 작가의 소설 「위저드 베이커리」에서 영감을 얻어 개인적으로 재해석한 비공식 팬 프로젝트. 효과와 대가를 가진 39개 상품을 5개 컬렉션으로 정리하고 베이커리 쇼핑 경험으로 구현했습니다.',
-    role:'세계관 기획 · UI 설계 · 프론트엔드 · AI 비주얼',
-    steps:[['세계관의 재해석','원작의 세계관을 기반으로 새로운 상품 콘셉트를 구성했습니다.'],['콘텐츠 구조','MIND / RELATION / CURSE / SEALED / NIGHT. 총 39개 상품을 JSON 데이터로 관리.'],['웹 구현','React + HashRouter, 필터 진열대와 4탭 상품 상세, 관심 목록, GitHub Pages 배포.']],
-    tags:['React','39개 상품','5개 컬렉션'],note:'구병모 작가의 원작과 공식 제휴 없는 개인 창작·비공식 팬 프로젝트입니다. 카드 표지는 사용자 제공 웹사이트 비주얼을 16:9 화면에 맞춰 구성했습니다.',links:[{label:"Live",url:"https://ejdms499-wq.github.io/wizard-bakery/",kind:"site"},{label:"기획 노트 · Notion",url:"https://app.notion.com/p/WIZARD-BAKERY-3d592c0c250981c48c5fc89fb13109d9",kind:"resource"}]
-  },
-  {
-    id:'gyeong',image:'assets/projects/covers/gyeongseong_yarok.png',imageAlt:'경성야록 대표 이미지',imageCredit:'사용자 제공 포트폴리오 대표 이미지',number:'04',title:'경성야록',subtitle:'1930년대 신문을 손끝에서 펼치다.',category:'interactive',categoryLabel:'인터랙티브 웹',size:'wide',art:'gyeong',year:'역사 기반 웹 콘텐츠',
-    intro:'1930년대 신문 지면이 오늘의 인터랙티브 경험으로.',
-    description:'당시 기록과 지면의 형태를 바탕으로 한 역사 콘텐츠 프로젝트. 원문 이미지, 현대어 풀이, 지도, 라디오 등 탐색 기능을 통해 독자가 사료와 이야기 사이를 직접 오가게 합니다.',
-    role:'콘텐츠 기획 · 비주얼 디렉션 · 팀 리딩',
-    steps:[['자료 조사','실제 당시 신문 지면과 확인 가능한 기록을 수집·검토합니다.'],['시각 언어','1930년대 신문 인쇄물의 활자와 삽화 질감을 모바일/PC 화면으로 옮깁니다.'],['탐색 경험','기사·현대어 풀이·지도·라디오를 하나의 탐색 동선으로 연결합니다.']],
-    tags:['역사 자료','신문형 인터랙션','웹 콘텐츠'],note:'표지의 신문풍 그래픽은 실제 당시 지면이 아니라 웹 포트폴리오용 타이포그래피 스터디입니다. 실제 사료와 AI 재현물은 상세 자료에서 구분해야 합니다.',links:[{label:"Live",url:"https://ejdms499-wq.github.io/gyeongseong-yarok_v/",kind:"site"},{label:"기획 노트 · Notion",url:"https://app.notion.com/p/KYEONGSEONG-YAROK-40592c0c250981a98ddfeb2ada731c12",kind:"resource"}]
-  },
-  {
-    id:'simmyo',image:'assets/projects/covers/simmyo_cover_web.jpg',imageAlt:'심묘한 산책 대표 이미지',imageCredit:'사용자 제공 포트폴리오 대표 이미지',artworkOriginal:true,gallery:['assets/projects/simmyo_A_s1_01b.png','assets/projects/simmyo_A_s1_01c.png','assets/projects/simmyo_A_t9_01.png','assets/projects/simmyo_A_t8_02.png','assets/projects/simmyo_D_n3_tile_13.png','assets/projects/simmyo_D_n3_tile_16.png'],number:'05',title:'심묘한 산책',subtitle:'길고양이의 발자국으로 만나는 오래된 경성.',category:'interactive',categoryLabel:'인터랙티브 웹',size:'narrow',art:'simmyo',year:'1930년대 경성 문화 탐험',
-    intro:'아무 사건도 일으키지 않는 길고양이가 경성을 걷습니다.',
-    description:'작고 통통한 먹색 고양이 심묘의 시선으로 1930년대 경성의 문화·공간·생활을 발견하는 인터랙티브 산책 프로젝트.',
-    role:'캐릭터 설정 · 역사 리서치 · 비주얼 기획',
-    steps:[['심묘의 설정','그림 속에서 확인 가능한 정보만 설정으로 남기는 캐릭터 원칙.'],['도시의 기록','당시 자료의 기록과 상상을 구분하며 도시의 문화 공간을 탐색.'],['산책의 방식','지도·발자국·목격지 서사를 통해 시대적 분위기에 접근.']],
-    tags:['캐릭터','경성 문화','스토리텔링'],note:'표지와 갤러리는 직접 제공한 심묘 원본 포즈와 장면 에셋입니다. 원본 그림체와 색감은 변경하지 않았습니다.',links:[{label:"Live",url:"https://ejdms499-wq.github.io/simmyo-walk/",kind:"site"},{label:"기획 노트 · Notion",url:"https://app.notion.com/p/SIMMYO-WALK-40592c0c25098165adb1d0f1ed83a163",kind:"resource"}]
-  },
-  {
-    id:'music',image:'assets/projects/covers/music_world.png',imageAlt:'MUSIC WORLD 음악 아카이브 웹사이트 실제 화면',imageCredit:'사용자 제공 MUSIC WORLD 실제 사이트 화면',number:'06',title:'MUSIC WORLD',subtitle:'음악과 라이브를 탐색하는 다른 방식.',category:'interactive',categoryLabel:'인터랙티브 웹',size:'wide',art:'music',year:'음악 경험 MVP',
-    intro:'음악과 라이브 영상의 감각적인 탐색.',
-    description:'음악·라이브·영상 자료를 탐색하는 인터랙티브 MVP와 레퍼런스 아카이브. Radiohead ‘High and Dry’ 라이브 영상은 자료 연구용 참고 영상으로 연결되어 있습니다.',
-    role:'콘텐츠 큐레이션 · 경험 설계 · MVP 제작',
-    steps:[['경험 설계','음악, 영상, 라이브 공연 자료에 도달하는 사용자의 탐색 방식 설계.'],['MVP 결과','Notion에 별도로 보관된 MUSIC WORLD MVP HTML 결과물.'],['외부 레퍼런스','Radiohead — High and Dry, Later… with Jools Holland (1995)는 프로젝트가 제작한 영상이 아니라 외부 레퍼런스.']],
-    tags:['음악 큐레이션','인터랙티브','MVP'],note:'공식 Radiohead 프로젝트가 아니며 영상의 저작권은 각 권리자에게 있습니다. 표지는 사용자 제공 MUSIC WORLD 화면 이미지입니다.',links:[{label:"Live",url:"https://ubiquitous-crepe-83c45d.netlify.app/",kind:"site"},{label:"기획 노트 · Notion",url:"https://app.notion.com/p/MUSIC-WORLD-MUSIC-WORLD-AI-MUSIC-CONTEXT-ENGINE-40592c0c250981c291f2c79dc17872ed",kind:"resource"}]
-  },
-  {
-    id:'memory',image:'assets/projects/covers/memory_gyeol.png',imageAlt:'기억결 대표 이미지',imageCredit:'사용자 제공 포트폴리오 대표 이미지',number:'07',title:'기억결',subtitle:'기억의 빈틈을 멋대로 채우지 않는 AI.',category:'ai',categoryLabel:'AI·데이터',size:'narrow',art:'memory',year:'n8n · OpenAI · Supabase',
-    intro:'기억하지 못하는 것까지 AI가 지어내지 않도록.',
-    description:'사용자가 떠올린 최초의 기억을 보존하고, 확실한 기억·불확실한 기억·미확인 정보를 분리한 뒤 질문과 이미지를 통해 조심스럽게 재구성하는 AI 경험 서비스입니다.',
-    role:'서비스 기획 · AI 자동화 · 웹 구현',
-    steps:[['최초 기억 보존','AI 개입 전에 사용자의 최초 기억 원문을 저장합니다.'],['기억 인터뷰와 구분','비유도형 질문과 확신도 분류를 통해 확실/불확실/미확인 정보를 구분합니다.'],['검증 후 재구성','Memory Image Guard → Final Prompt Lock → 이미지 생성 → Supabase Private Storage/Signed URL → 결과 페이지.']],
-    tags:['n8n','OpenAI','Supabase'],note:'기억 재구성 서비스의 개념과 구축 구조에 관한 프로젝트입니다. 카드의 추상 그래픽은 실제 생성 결과물이 아닙니다.',links:[{label:"Live",url:"https://ejdms499-wq.github.io/memory-gyeol/",kind:"site"},{label:"기획 노트 · Notion",url:"https://app.notion.com/p/MEMORY-GYEOL-40592c0c250981bfa33cd273d195a9ab",kind:"resource"}]
-  },
-  {
-    id:'stones',image:'assets/projects/covers/stray_stones_wide.webp',imageAlt:'사용자가 제공한 STRAY STONES 대표 이미지의 16대9 확장판',imageCredit:'사용자 제공 포트폴리오 대표 이미지',number:'08',title:'STRAY STONES',subtitle:'길 잃은 운석이 도착하는 작은 입양소.',category:'ai',categoryLabel:'AI·데이터',size:'half',art:'stones',year:'NASA 운석 데이터 기반',
-    intro:'우주의 길 잃은 돌을 위한 작고 이상한 입양소.',
-    description:'NASA 운석 데이터에서 발견 위치와 탐색 편향을 읽고, 정보를 캐릭터·탐험·입양이라는 새로운 경험으로 전환하는 프로젝트입니다.',
-    role:'데이터 해석 · 캐릭터 기획 · UI 설계',
-    steps:[['데이터에서 발견한 것','운석 기록이 단지 떨어진 장소가 아니라 인간의 발견·탐색 행위를 반영한다는 관찰.'],['관점의 전환','방대한 기록을 감정적으로 연결할 수 있는 입양소 콘셉트로 전환.'],['경험으로 만들기','기존 3D 지구본과 타임라인에서 캐릭터 기반 앱 경험으로 확장.']],
-    tags:['NASA 운석 데이터','캐릭터 세계관','앱 콘셉트'],note:'대표 이미지는 사용자가 제공한 STRAY STONES 표지입니다. 가로 카드 버전은 원본 문자와 캐릭터를 보존해 제작한 16:9 배치입니다.',links:[{label:"Live",url:"https://ejdms499-wq.github.io/STRAY_STONES/",kind:"site"},{label:"기획 노트 · Notion",url:"https://app.notion.com/p/STRAY-STONES-40592c0c2509817f977befdea563fb1c",kind:"resource"}]
-  },
-  {
-    id:'vinyl',image:'assets/projects/covers/data_vinyl.png',imageAlt:'DATA VINYL 대표 이미지: 턴테이블과 레코드 아카이브',imageCredit:'사용자가 제공한 DATA VINYL 이미지',number:'09',title:'DATA VINYL',subtitle:'차트의 숫자를 레코드의 경험으로.',category:'ai',categoryLabel:'AI·데이터',size:'half',art:'vinyl',year:'음악 데이터 인터랙션',
-    intro:'차트를 읽는 일에서 레코드를 고르는 경험으로.',
-    description:'음악 데이터를 실제 턴테이블을 만지는 행위로 번역했습니다. LP 슬리브, 바늘, 레코드 디깅으로 청취와 데이터 탐색을 연결합니다.',
-    role:'콘셉트 기획 · 데이터 설계 · UI 인터랙션',
-    steps:[['데이터 구조','시장별 음악 데이터 정리 및 탐색 구조 설계.'],['손에 잡히는 인터랙션','LP 슬리브를 고르고 바늘을 내리는 촉각적 행동을 인터페이스로.'],['탐색 경험','레코드 디깅, 매칭, 개인 청취 여권 등 모듈 기획.']],
-    tags:['음악 데이터','턴테이블','인터랙티브 웹'],note:'표지는 사용자가 제공한 DATA VINYL 대표 이미지입니다. 실제 기능은 사이트 및 기획 자료를 참고하세요.',links:[{label:"Live",url:"https://ejdms499-wq.github.io/DATA_VINYL/",kind:"site"},{label:"기획 노트 · Notion",url:"https://app.notion.com/p/DATA-VINYL-40592c0c250981cdb997fa7b1adba019",kind:"resource"}]
-  },
-  {
-    id:'research',image:'assets/projects/experiment_1.webp',imageAlt:'투명 종이와 실험 자료를 겹쳐 배열한 실험노트 콘셉트 이미지',imageCredit:'사용자 제공 Midjourney 실험노트 표지',gallery:['assets/projects/experiment_0.webp','assets/projects/experiment_1.webp','assets/projects/experiment_2.webp','assets/projects/experiment_3.webp'],number:'10',title:'실험 노트',subtitle:'아이디어가 프로토타입이 되기까지.',category:'ai',categoryLabel:'AI · 데이터',size:'small',art:'research',year:'진행 중인 제작 기록',
-    intro:'생각을 움직이는 프로토타입으로 만드는 과정.',
-    description:'데이터 분석, AI 보조 제작, 프롬프트 반복, UI 프로토타이핑 등 여러 실험과 제작 과정을 기록하는 열린 아카이브.',
-    role:'리서치 · 프로토타이핑 · 비주얼 개발',
-    steps:[['질문하기','사용자 경험과 시각적 표현이 만나는 질문을 정의합니다.'],['실험하기','레퍼런스부터 프로토타입까지 반복 테스트와 수정.'],['다듬기','작동하는 결과물과 학습한 내용을 분리해 기록합니다.']],
-    tags:['리서치','AI 제작','프로토타입'],note:'표지는 사용자가 제작해 제공한 Midjourney 실험노트 이미지입니다. 실제 연구 기록이나 완성 결과물의 캡처는 아닙니다.',links:[]
   }
 ];
 
