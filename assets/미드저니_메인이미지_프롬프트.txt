@@ -1,0 +1,21 @@
+[메인 첫 화면 + 실험 노트 교체용 미드저니 프롬프트]
+· 사이트가 순백 + 검정 하나라서, 이미지도 '흰 공간에 놓인 단 하나의 오브제' 톤으로 맞췄어요. 색이 거의 없고 그림자로만 형태가 읽히는 쪽.
+· 한 줄 통째로 복사 → 마음에 드는 것 업스케일 → 아래 파일명으로 덮어쓰기.
+   첫 화면:  assets/lookbook/closed.webp  (정사각 1:1)
+   실험 노트: assets/projects/experiment_1.webp (대표), experiment_0/2/3.webp (갤러리)  (가로 4:3)
+
+── 첫 화면 (셋 중 하나 고르세요) ──
+A. 종이 더미
+a single stack of white paper sheets slightly fanned out on a white plinth, one sheet lifted by a soft breeze, pure white seamless background, soft overhead studio light, long gentle shadow, no color, no text, minimal still life, medium format film, fine grain --ar 1:1 --style raw --v 6.1
+
+B. 흰 린넨 한 장
+a single piece of white linen fabric draped over an invisible form, floating in a pure white room, soft natural window light, delicate folds and shadows only, no color, no text, quiet sculptural still life, medium format film, fine grain --ar 1:1 --style raw --v 6.1
+
+C. 빈 옷걸이
+one thin matte black wire hanger hanging from a single nail on a white plaster wall, strong soft daylight from the left, long clean shadow, nothing else in frame, no text, minimal, medium format film, fine grain --ar 1:1 --style raw --v 6.1
+
+── 실험 노트 (4장 세트, 같은 톤) ──
+01 (대표) overhead flat lay of blank white index cards arranged in a loose grid on a white desk, one card slightly turned, a single graphite pencil, soft daylight, no color, no text, minimal, medium format film, fine grain --ar 4:3 --style raw --v 6.1
+02 a white notebook lying open to two blank pages on a white table, a thin shadow of a window frame across it, no color, no text, minimal, medium format film, fine grain --ar 4:3 --style raw --v 6.1
+03 several sheets of translucent tracing paper layered on a white surface, edges overlapping, soft daylight through them, no color, no text, minimal, medium format film, fine grain --ar 4:3 --style raw --v 6.1
+04 a single white eraser and a few paper shavings on a white desk, hard afternoon light, long shadow, no color, no text, minimal, medium format film, fine grain --ar 4:3 --style raw --v 6.1

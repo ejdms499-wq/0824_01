@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f4f5f7" />
+  <meta name="description" content="SOY KIM — 비주얼 디렉션, 스타일링, 캐릭터, 인터랙티브 콘텐츠 포트폴리오." />
+  <title>SOY KIM — 포트폴리오</title>
+  <link rel="stylesheet" href="assets/fonts/fonts.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="projects.js" defer></script>
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+<div class="bg" aria-hidden="true"><i class="bg-blob bg-blob--1"></i><i class="bg-blob bg-blob--2"></i><i class="bg-blob bg-blob--3"></i><i class="bg-blob bg-blob--4"></i><i class="bg-ray"></i><i class="bg-ray2"></i></div>
+<a href="#home" class="skip-link">본문으로 이동</a>
+
+<header class="bar" id="bar">
+  <a class="bar-logo" href="#home" aria-label="SOY KIM 처음으로">SOY KIM<span>.</span></a>
+  <nav class="bar-nav" aria-label="주요 메뉴">
+    <a href="#about" data-nav="about">소개</a>
+    <a href="#projects" data-nav="projects">프로젝트</a>
+    <a href="credits.html">크레딧</a>
+    <a href="#contact" data-nav="contact">연락</a>
+  </nav>
+  <button type="button" class="bar-index-toggle" id="indexToggle" aria-expanded="false" aria-controls="indexPanel"><span>목차</span><i aria-hidden="true">⌄</i></button>
+  <span class="bar-progress" id="barProgress" aria-hidden="true"></span>
+</header>
+<nav id="indexPanel" class="index-panel" hidden aria-label="프로젝트 목차"><div class="wrap" id="indexPanelList"></div></nav>
+
+<main>
+  <!-- ───── HERO ───── -->
+  <section class="hero" id="home">
+    <div class="wrap hero-grid hero-grid--solo">
+      <div class="hero-copy">
+        <p class="eyebrow"><span>Portfolio — Kim Soyi</span><span>Seoul, KR</span></p>
+        <h1 class="hero-title">SOY<br>KIM<i>.</i></h1>
+        <p class="hero-role">비주얼 디렉션 <em>&amp;</em> 디지털 콘텐츠</p>
+        <p class="hero-lede">스타일링 현장에서 익힌 감각으로 캐릭터, 역사 콘텐츠, AI 서비스까지 — 보이는 것과 작동하는 것을 함께 기획합니다.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn--dark">작업 보기 <span aria-hidden="true">↓</span></a>
+          <a href="credits.html" class="btn">Selected Credits <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="wrap">
+      <ul class="hero-stats" id="heroStats" aria-label="포트폴리오 요약"></ul>
+    </div>
+  </section>
+
+
+
+  <!-- ───── ABOUT ───── -->
+  <section class="about" id="about">
+    <div class="wrap">
+      <header class="sec-head"><span class="sec-no">01 — About</span><h2>김소이 <em>SOY KIM.</em></h2></header>
+      <div class="about-grid" id="aboutGrid"></div>
+    </div>
+  </section>
+
+  <!-- ───── PROJECT INDEX ───── -->
+  <section class="pindex" id="projects">
+    <div class="wrap">
+      <header class="sec-head"><span class="sec-no">02 — Projects</span><h2>선택한 작업 <em>10</em></h2><p>패션 · 캐릭터 · 인터랙티브 웹 · AI/데이터. 각 프로젝트의 큰 이미지, 역할, 도구, 핵심 숫자, 배운 점을 한 번에 봅니다.</p></header>
+      <ol class="pindex-list" id="pindexList"></ol>
+    </div>
+  </section>
+
+  <!-- ───── PROJECTS ───── -->
+  <div id="projectBlocks"></div>
+
+
+
+  <!-- ───── CONTACT ───── -->
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <p class="contact-eyebrow">03 — Contact</p>
+      <h2 class="contact-title">Let's<br><em>work</em> together<i>.</i></h2>
+      <p class="contact-lede">비주얼 디렉션, 캐릭터·세계관, 인터랙티브 콘텐츠, AI 기획 — 어느 쪽이든 같이 만들어 봐요.</p>
+      <div class="contact-row" id="contactRow"></div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <div class="wrap foot-row">
+      <span>SOY KIM © 2026</span>
+      <span>이미지 · 영상의 권리는 각 원권리자에게 있습니다. 팀 작업은 참여 범위를 함께 표기했습니다.</span>
+      <a href="#home">맨 위로 <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+</main>
+
+<div id="imageLightbox" class="image-lightbox" hidden>
+  <div class="image-lightbox-dialog" role="dialog" aria-modal="true" aria-labelledby="lightboxCaption" tabindex="-1">
+    <button type="button" class="image-lightbox-close" id="lightboxClose" aria-label="이미지 닫기">닫기 <span>×</span></button>
+    <button type="button" class="image-lightbox-nav prev" id="lightboxPrev" aria-label="이전 이미지">‹</button>
+    <figure class="image-lightbox-figure">
+      <img id="lightboxImage" src="" alt="" />
+      <figcaption id="lightboxCaption"></figcaption>
+    </figure>
+    <button type="button" class="image-lightbox-nav next" id="lightboxNext" aria-label="다음 이미지">›</button>
+  </div>
+</div>
+</body>
+</html>

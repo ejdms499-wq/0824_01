@@ -1,0 +1,21 @@
+[한 컷이 완성되기까지 — 여섯 단계 카드용 미드저니 프롬프트]
+· 여섯 장이 한 세트로 보여야 하니 같은 톤(밝은 스튜디오 자연광, 아이보리·라벤더·민트가 살짝 섞인 파스텔, 필름 질감, 얼굴 없음)으로 맞췄어요.
+· 각 줄을 통째로 복사해서 붙여 넣으면 됩니다. 결과는 세로 4:5. 완성본은 step_01.jpg ~ step_06.jpg 이름으로 이 폴더에 덮어쓰세요.
+
+step_01 시안 작업 (Reference)
+editorial still life of a fashion stylist's reference wall, dozens of magazine tear sheets and polaroids pinned on a pale wall with washi tape, a hand holding a pencil pointing at one photo, soft daylight from a window, pastel palette of ivory lavender and mint, no visible faces, shot on medium format film, fine grain, minimal and refined, luxury fashion magazine aesthetic --ar 4:5 --style raw --v 6.1
+
+step_02 컨셉 설정 (Concept)
+overhead flat lay on a white marble desk, an open sketchbook with a single handwritten line and a tiny fabric swatch, a glass of water casting rainbow light, pastel ivory lavender mint tones, soft natural daylight, fashion editorial still life, medium format film grain, minimal, airy, refined --ar 4:5 --style raw --v 6.1
+
+step_03 비주얼 무드 제시 (Mood)
+a physical moodboard leaning on a studio wall, fabric swatches in cream black and terracotta, printed photos, color chips and a thin silver chain pinned with tiny clips, one hand adjusting a swatch, soft diffused daylight, pastel ivory lavender mint atmosphere, no faces, luxury fashion magazine still life, medium format film grain, minimal --ar 4:5 --style raw --v 6.1
+
+step_04 의상 픽업 · 사입 (Sourcing)
+a rolling garment rack packed with tailored jackets and shirts in dust covers, shoe boxes and a row of black leather shoes lined up on a pale concrete floor, a clipboard with a checklist, soft window light, pastel ivory lavender mint tones, fashion showroom atmosphere, no faces, medium format film grain, refined and quiet --ar 4:5 --style raw --v 6.1
+
+step_05 착장 피팅 (Fitting)
+close-up of a stylist's hands pinning the hem of an oversized black wool jacket on a dress form, a pincushion on the wrist, a measuring tape draped over the shoulder, bright studio daylight, pastel ivory lavender mint tones, no faces, luxury fashion editorial detail shot, medium format film grain, minimal and precise --ar 4:5 --style raw --v 6.1
+
+step_06 현장 팔로우 (On set)
+behind the scenes of a fashion photo shoot seen from the side, a seamless pale backdrop, a studio strobe with softbox, a steamer and a clothing rack in the foreground, a stylist's hand holding a lint roller, soft pastel ivory lavender mint light, no faces, medium format film grain, quiet cinematic editorial atmosphere --ar 4:5 --style raw --v 6.1

@@ -1,0 +1,47 @@
+{
+  "koo_collective": [
+    "assets/projects/styling/editorial/koo_collective_01.webp",
+    "assets/projects/styling/editorial/koo_collective_02.webp",
+    "assets/projects/styling/editorial/koo_collective_03.webp",
+    "assets/projects/styling/editorial/koo_collective_04.webp"
+  ],
+  "cha_singles": [
+    "assets/projects/styling/editorial/cha_singles_01.webp",
+    "assets/projects/styling/editorial/cha_singles_02.webp",
+    "assets/projects/styling/editorial/cha_singles_03.webp",
+    "assets/projects/styling/editorial/cha_singles_04.webp",
+    "assets/projects/styling/editorial/cha_singles_05.webp",
+    "assets/projects/styling/editorial/cha_singles_06.webp",
+    "assets/projects/styling/editorial/cha_singles_07.webp",
+    "assets/projects/styling/editorial/cha_singles_08.webp",
+    "assets/projects/styling/editorial/cha_singles_09.webp",
+    "assets/projects/styling/editorial/cha_singles_10.webp",
+    "assets/projects/styling/editorial/cha_singles_11.webp"
+  ],
+  "shin_bazaar": [
+    "assets/projects/styling/editorial/shin_bazaar_01.webp",
+    "assets/projects/styling/editorial/shin_bazaar_02.webp",
+    "assets/projects/styling/editorial/shin_bazaar_03.webp"
+  ],
+  "ha_vogue": [
+    "assets/projects/styling/editorial/ha_vogue_01.webp",
+    "assets/projects/styling/editorial/ha_vogue_02.webp",
+    "assets/projects/styling/editorial/ha_vogue_03.webp",
+    "assets/projects/styling/editorial/ha_vogue_04.webp"
+  ],
+  "kang_boldpage": {
+    "title": "강유석 · BoldPage",
+    "publication": "BOLDPAGE",
+    "images": [
+      "assets/projects/styling/bold_01.jpg",
+      "assets/projects/styling/bold_02.jpg",
+      "assets/projects/styling/bold_03.jpg",
+      "assets/projects/styling/bold_04.jpg",
+      "assets/projects/styling/bold_fullbody.jpg",
+      "assets/projects/styling/bold_05_title.jpg",
+      "assets/projects/styling/bold_bts_01.jpg",
+      "assets/projects/styling/bold_bts_02.jpg"
+    ],
+    "note": "v23: bold_fullbody.jpg를 발끝까지 나온 전신 컷으로 교체(이전 잘린 버전은 _old_bold_fullbody_cropped.jpg로 보관, 미사용). 크레용 타이틀 컷 + 비하인드 2컷 추가."
+  }
+}
